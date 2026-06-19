@@ -1,6 +1,6 @@
 # hic200-cpp
 
-A C++17 rewrite of [hic-200](../hic-200) (`hic200.py`), which bins Hi-C
+A C++17 rewrite of [hic-200](https://github.com/mbyamaguchi/hic-200) (`hic200.py`), which bins Hi-C
 fragment-pair data into a contact map. Same pipeline, three stages:
 
 1. **make_bin_def2** — build a bin-definition table from a restriction-enzyme
