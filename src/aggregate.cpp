@@ -62,7 +62,7 @@ void sort_and_aggregate(const std::string& pairs_file, const std::string& output
     if (!fout) {
         throw std::runtime_error("cannot open output file: " + output_file);
     }
-    fout << "bin\tbin2\tscore\n";
+    fout << "bin1\tbin2\tscore\n";
 
     bool have_prev = false;
     long long prev_b1 = 0, prev_b2 = 0, total = 0;
